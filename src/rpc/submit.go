@@ -1,10 +1,11 @@
 package rpc
 
 import (
-	"avail-go-sdk/src/extrinsic"
 	"context"
 	"fmt"
 	"sync"
+
+	"github.com/availproject/avail-go/src/extrinsic"
 
 	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/config"

@@ -1,13 +1,14 @@
 package sdk
 
 import (
-	"avail-go-sdk/src/extrinsic"
-	"avail-go-sdk/src/rpc"
 	"encoding/hex"
 	"fmt"
 	"log"
 	"strings"
 	"time"
+
+	"github.com/availproject/avail-go/src/extrinsic"
+	"github.com/availproject/avail-go/src/rpc"
 
 	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/types"

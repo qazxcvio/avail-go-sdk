@@ -1,11 +1,12 @@
 package call
 
 import (
-	"avail-go-sdk/src/rpc"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/types"
 	"encoding/hex"
 	"fmt"
+
+	"github.com/availproject/avail-go/src/rpc"
+	"github.com/availproject/avail-go/src/sdk"
+	"github.com/availproject/avail-go/src/sdk/types"
 )
 
 func Query_proof(api *sdk.SubstrateAPI, testCell []rpc.Cell, blockHash types.Hash) ([]rpc.GDataProof, error) {

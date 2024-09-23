@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"strings"
 
-	"avail-go-sdk/src/rpc"
+	"github.com/availproject/avail-go/src/rpc"
 
 	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"

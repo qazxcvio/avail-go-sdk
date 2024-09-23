@@ -1,8 +1,8 @@
 package rpc
 
 import (
-	"avail-go-sdk/src/extrinsic"
-	"avail-go-sdk/src/header"
+	"github.com/availproject/avail-go/src/extrinsic"
+	"github.com/availproject/avail-go/src/header"
 
 	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/types"

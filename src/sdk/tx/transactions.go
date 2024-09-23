@@ -1,12 +1,13 @@
 package tx
 
 import (
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/types"
 	"errors"
 	"fmt"
 	"math/big"
 	"strconv"
+
+	"github.com/availproject/avail-go/src/sdk"
+	"github.com/availproject/avail-go/src/sdk/types"
 
 	"github.com/vedhavyas/go-subkey/v2"
 )
