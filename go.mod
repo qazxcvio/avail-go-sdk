@@ -1,4 +1,4 @@
-module github.com/availproject/avail-go
+module github.com/availproject/avail-go-sdk
 
 go 1.21.0
 

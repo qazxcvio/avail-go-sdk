@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/availproject/avail-go/src/extrinsic"
+	"github.com/availproject/avail-go-sdk/src/extrinsic"
 
 	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/config"

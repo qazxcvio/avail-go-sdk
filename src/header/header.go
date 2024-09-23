@@ -1,7 +1,7 @@
 package header
 
 import (
-	avail "github.com/availproject/avail-go/src/sdk/types"
+	avail "github.com/availproject/avail-go-sdk/src/sdk/types"
 
 	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
