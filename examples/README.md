@@ -85,9 +85,9 @@ On failure, a reason of failure is returned. On Success, ApplicationKeyCreated e
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -143,9 +143,9 @@ On failure, a reason of failure is returned. On Success, DataSubmitted event, tr
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -207,9 +207,9 @@ On failure, a reason of failure is returned. On Success, transaction hash and bl
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -266,9 +266,9 @@ On failure, a reason of failure is returned. On Success, ApplicationKeySet event
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -324,9 +324,9 @@ On failure, a reason of failure is returned. On Success, transaction hash and bl
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 	"math/big"
 
 	"fmt"
@@ -419,10 +419,10 @@ On failure, a reason of failure is returned. On Success, TransferEvent event, tr
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
-	"avail-go-sdk/src/sdk/types"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/sdk/types"
 	"math"
 
 	"fmt"
@@ -482,10 +482,10 @@ hash is returned.
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
-	"avail-go-sdk/src/sdk/types"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/sdk/types"
 	"math"
 
 	"fmt"
@@ -543,9 +543,9 @@ On failure, a reason of failure is returned. On Success transaction hash and blo
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -620,9 +620,9 @@ On failure, a reason of failure is returned. On Success, Bonded event, transacti
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -680,9 +680,9 @@ On failure, a reason of failure is returned. On Success, transaction hash and bl
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -736,9 +736,9 @@ On failure, a reason of failure is returned. On Success, transaction hash and bl
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -791,9 +791,9 @@ On failure, a reason of failure is returned. On Success, transaction hash and bl
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -847,9 +847,9 @@ On failure, a reason of failure is returned. On Success, transaction hash and bl
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )
@@ -903,10 +903,10 @@ On failure, a reason of failure is returned. On Success, Unbonded event, transac
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
-	"avail-go-sdk/src/sdk/types"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/sdk/types"
 	"math/big"
 
 	"fmt"
@@ -965,9 +965,9 @@ On failure, a reason of failure is returned. On Success, transaction hash and bl
 package main
 
 import (
-	"avail-go-sdk/src/config"
-	"avail-go-sdk/src/sdk"
-	"avail-go-sdk/src/sdk/tx"
+	"github.com/availproject/avail-go-sdk/src/config"
+	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/availproject/avail-go-sdk/src/sdk/tx"
 	"fmt"
 )
 
