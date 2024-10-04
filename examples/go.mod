@@ -2,7 +2,10 @@ module examples
 
 go 1.21.0
 
-require github.com/availproject/avail-go-sdk v0.1.1
+require (
+	github.com/availproject/avail-go-sdk v0.1.2
+	github.com/vedhavyas/go-subkey v1.0.4
+)
 
 require (
 	github.com/ChainSafe/go-schnorrkel v1.0.0 // indirect
@@ -23,7 +26,6 @@ require (
 	github.com/rs/cors v1.8.2 // indirect
 	github.com/stretchr/objx v0.1.1 // indirect
 	github.com/stretchr/testify v1.7.2 // indirect
-	github.com/vedhavyas/go-subkey v1.0.4 // indirect
 	github.com/vedhavyas/go-subkey/v2 v2.0.0 // indirect
 	golang.org/x/crypto v0.22.0 // indirect
 	golang.org/x/sys v0.19.0 // indirect
