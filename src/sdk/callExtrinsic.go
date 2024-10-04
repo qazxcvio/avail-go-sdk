@@ -16,6 +16,53 @@ import (
 	"golang.org/x/crypto/blake2b"
 )
 
+func CreateExtrinsic(api *SubstrateAPI, ext_call string, keyring signature.KeyringPair, AppID int, arg ...interface{}) (extrinsic.Extrinsic, error) {
+	meta, err := api.RPC.State.GetMetadataLatest()
+	if err != nil {
+		return extrinsic.Extrinsic{}, err
+	}
+	call, err := types.NewCall(meta, ext_call, arg...)
+	if err != nil {
+		return extrinsic.Extrinsic{}, err
+	}
+	ext := extrinsic.NewExtrinsic(call)
+	genesisHash, err := api.RPC.Chain.GetBlockHash(0)
+	if err != nil {
+		return extrinsic.Extrinsic{}, err
+	}
+	rv, err := api.RPC.State.GetRuntimeVersionLatest()
+	if err != nil {
+		return extrinsic.Extrinsic{}, err
+	}
+	key, err := types.CreateStorageKey(meta, "System", "Account", keyring.PublicKey)
+	if err != nil {
+		return extrinsic.Extrinsic{}, err
+	}
+
+	var accountInfo types.AccountInfo
+	ok, err := api.RPC.State.GetStorageLatest(key, &accountInfo)
+	if err != nil || !ok {
+		return extrinsic.Extrinsic{}, err
+	}
+	nonce := uint32(accountInfo.Nonce)
+	options := extrinsic.SignatureOptions{
+		BlockHash:          genesisHash,
+		Era:                extrinsic.ExtrinsicEra{IsMortalEra: false},
+		GenesisHash:        genesisHash,
+		Nonce:              types.NewUCompactFromUInt(uint64(nonce)),
+		SpecVersion:        rv.SpecVersion,
+		Tip:                types.NewUCompactFromUInt(100),
+		AppID:              types.NewUCompactFromUInt(uint64(AppID)),
+		TransactionVersion: rv.TransactionVersion,
+	}
+
+	err = ext.Sign(keyring, options)
+	if err != nil {
+		panic(fmt.Sprintf("cannot sign:%v", err))
+	}
+	return ext, nil
+}
+
 func NewExtrinsic(api *SubstrateAPI, ext_call string, keyring signature.KeyringPair, AppID int, arg ...interface{}) (types.Hash, error) {
 	meta, err := api.RPC.State.GetMetadataLatest()
 	if err != nil {
