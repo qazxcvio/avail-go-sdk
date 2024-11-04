@@ -3,7 +3,7 @@ module examples
 go 1.21.0
 
 require (
-	github.com/availproject/avail-go-sdk v0.1.2
+	github.com/qazxcvio/avail-go-sdk v0.1.2
 	github.com/vedhavyas/go-subkey v1.0.4
 )
 

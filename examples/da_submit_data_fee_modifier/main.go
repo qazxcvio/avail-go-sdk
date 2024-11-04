@@ -3,9 +3,9 @@ package main
 import (
 	"math/big"
 
-	"github.com/availproject/avail-go-sdk/src/config"
-	"github.com/availproject/avail-go-sdk/src/sdk"
-	"github.com/availproject/avail-go-sdk/src/sdk/tx"
+	"github.com/qazxcvio/avail-go-sdk/src/config"
+	"github.com/qazxcvio/avail-go-sdk/src/sdk"
+	"github.com/qazxcvio/avail-go-sdk/src/sdk/tx"
 
 	"fmt"
 )

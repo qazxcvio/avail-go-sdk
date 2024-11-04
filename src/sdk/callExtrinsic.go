@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/availproject/avail-go-sdk/src/extrinsic"
-	"github.com/availproject/avail-go-sdk/src/rpc"
+	"github.com/qazxcvio/avail-go-sdk/src/extrinsic"
+	"github.com/qazxcvio/avail-go-sdk/src/rpc"
 
 	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/types"

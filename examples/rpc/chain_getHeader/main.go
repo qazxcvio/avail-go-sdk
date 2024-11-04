@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/availproject/avail-go-sdk/src/config"
-	"github.com/availproject/avail-go-sdk/src/rpc"
-	"github.com/availproject/avail-go-sdk/src/sdk"
+	"github.com/qazxcvio/avail-go-sdk/src/config"
+	"github.com/qazxcvio/avail-go-sdk/src/rpc"
+	"github.com/qazxcvio/avail-go-sdk/src/sdk"
 )
 
 func main() {
